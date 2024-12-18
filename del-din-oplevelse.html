@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Del dine oplevelser på Radar. Upload billeder, videoer og del dine minder med fællesskabet.">
+    <meta name="keywords" content="Radar, del din oplevelse, upload, minder, billeder, fællesskab, koncerter, Aarhus">
+    <meta name="author" content="Radar Aarhus">
+    
+    <title>Del Din Oplevelse</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="subpage-header">
+        <nav class="header">
+            <div class="logo">
+                <a href="index.html"><img src="img/Logo.png" alt="Radar Logo"></a>
+            </div>
+            <div class="subpage-burger">
+                <button id="hamburger_subsite" class="hamburger" aria-label="Open menu">☰</button>
+            </div>
+            <ul id="subpage-nav-menu" class="nav-menu">
+                <li><a href="events.html">Events</a></li>
+                <li><a href="omradar.html">Om Radar</a></li>
+                <li><a href="del-din-oplevelse.html">Del Din Oplevelse</a></li>
+                <li><a href="kontakt.html">Kontakt & Info</a></li>
+                <li><a href="støt.html">Støt Radar</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="del-din-oplevelse">
+        <!-- Page Title -->
+        <h2 class="del">Del din oplevelse</h2>
+        <ul class="subpage-menu">
+            <li><a href="#">Historie</a></li>
+            <li><a href="#">Værdier</a></li>
+            <li><a href="#">Partnere</a></li>
+        </ul>
+
+        <!-- Section: Share Your Experience -->
+        <section id="om-radar" class="om-radar">
+            <article class="brødtekst-del-din-oplevelse">
+                <h2>Vær med til at bane vejen for Radar</h2>
+                <p>
+                    Vi vil gerne høre fra dig! Har du haft en fantastisk aften på Radar? Del dine billeder, minder og tanker med os, 
+                    så vi kan fejre fællesskabet og de unikke øjeblikke, der gør Radar til noget særligt.
+                </p>
+                <p>
+                    Upload dine oplevelser her og bliv en del af historien – vi glæder os til at se dit bidrag!
+                </p>
+            </article>
+        </section>
+
+        <!-- Section: Upload Files -->
+        <div class="upload-wrapper">
+            <div class="upload-container">
+                <h2>Upload</h2>
+                <div class="drop-area" id="drop-area">
+                    <div class="upload-icon">
+                        <span>&#8593;</span>
+                    </div>
+                    <p>Drag & drop files or <span class="browse" id="browse">Browse</span></p>
+                    <p class="supported-formats">
+                        Supported formats: JPEG, PNG, GIF, MP4, PDF, PSD, AI, Word, PPT
+                    </p>
+                    <input type="file" id="file-input" multiple style="display: none;">
+                </div>
+
+                <!-- Uploading Progress -->
+                <div class="uploading-section">
+                    <strong>Uploading</strong>
+                    <div class="progress-bar-container">
+                        <input type="text" id="file-name" value="your-file-here.PDF" readonly>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 50%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Uploaded Files -->
+                <div class="uploaded-section">
+                    <strong>Uploaded</strong>
+                    <div class="uploaded-files">
+                        <div class="uploaded-file">
+                            <input type="text" value="document-name.PDF" readonly>
+                            <button class="delete-btn">&times;</button>
+                        </div>
+                        <div class="uploaded-file">
+                            <input type="text" value="image-name-goes-here.png" readonly>
+                            <button class="delete-btn">&times;</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Submit Button -->
+                <button class="upload-btn">UPLOAD FILES</button>
+            </div>
+        </div>
+            <!-- Section: Others Have Shared -->
+            <div class="andre-har-delt">
+                <h2>Andre har delt</h2>
+                <section class="events-container">
+                  <img class="minde" src="img/delte-minder/73C93B78-6EBB-40AA-9212-46BEDFCC986C.png" alt="Elokay">
+                  <img class="minde" src="img/delte-minder/_DSC3550.png" alt="Artigeardit">
+                  <img class="minde" src="img/delte-minder/_DSC4103.png" alt="drew">
+                  <img class="minde" src="img/delte-minder/_DSC4156.png" alt="Savus">
+                  <img class="minde" src="img/delte-minder/_DSC4222.png" alt="Elokay">
+                  <img class="minde" src="img/delte-minder/_DSC4692-Enhanced-NR.png" alt="Artigeardit">
+                  <img class="minde" src="img/delte-minder/_DSC5255 (1).png" alt="drew">
+                  <img class="minde" src="img/delte-minder/_DSC5802.png" alt="Savus">
+                  <img class="minde" src="img/delte-minder/_DSC6745.png" alt="Elokay">
+                  <img class="minde" src="img/delte-minder/_DSC7022.png" alt="Artigeardit">
+                  <img class="minde" src="img/delte-minder/_DSC7656-Enhanced-NR (1).png" alt="drew">
+                  <img class="minde" src="img/delte-minder/_DSC9481_Sjask.png" alt="Savus">
+                </section>
+            </div>
+        
+    </main>
+
+    <!-- Footer -->
+  <footer>
+    <div class="img-wrapper">
+      <img src="img/Logo.png" alt="Radar logo, spillested for nichegenrer og eksperimenterende musik">
+    </div>
+    <p>
+      På Radar kan du opleve det skæve, det smalle og det nye – både lokalt, nationalt og internationalt med særligt fokus på det eksperimenterende, det alternative og på nichegenrer.
+    </p>
+    <p>
+      Vi interesserer os for krydsfelterne mellem musik og andre kunstarter, og for at eksperimentere med koncert- og præsentationsformater.
+    </p>
+    <ul class="footer_menu">
+      <div class="footer_card">
+        <li class="footer_menu_main"><a href="#">KONTAKT</a></li>
+        <li><a href="#">Addresse</a></li>
+        <li><a href="">Åbningstider</a></li>
+        <li><a href="">FAQ</a></li>
+      </div>
+      <div class="footer_card">
+        <li class="footer_menu_main"><a href="">DEL DIN OPLEVELSE</a></li>
+        <li><a href="">Brugergenereret indhold</a></li>
+        <li><a href="">Upload</a></li>
+        <li><a href="">Feedback</a></li>
+      </div>
+      <div class="footer_card">
+        <li class="footer_menu_main"><a href="">STØT RADAR</a></li>
+        <li><a href="">Donationsmuligheder</a></li>
+        <li><a href="">Bliv frivillig</a> </li>
+        <li><a href="">Bliv partner</a></li>
+      </div>
+      <div class="footer_card">
+        <li class="footer_menu_main"><a href="">EVENTS</a></li>
+        <li><a href="">Kommende</a></li>
+        <li><a href="">Tidligere</a></li>
+        <li><a href="">Booking</a></li>
+      </div>
+    </ul>
+    <div class="social-icons">
+      <a href="#"><img class="some-icon" src="img/facebook.png" alt="Facebook link til Radar"></a>
+      <a href="#"><img class="some-icon" src="img/instagram_logo.png" alt="Instagram link til Radar"></a>
+      <a href="#"><img class="some-icon" src="img/youtube_logo.png" alt="YouTube link til Radar"></a>
+      <a href="#"><img class="some-icon" src="img/Social Icons-3.png" alt="Spotify link til Radar"></a>
+    </div>
+  </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
